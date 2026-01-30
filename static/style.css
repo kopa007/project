@@ -1,0 +1,92 @@
+/* Basic reset */
+body {
+    font-family: Arial Black, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #87CEEB;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Forms */
+form label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.summary {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+a {
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
